@@ -1,0 +1,357 @@
+[
+    {
+        "nome": "Red Dead Redemption 2",
+        "dataInicio": "2014-10-18",
+        "dataPrevista": "2018-10-26",
+        "etapa": "Lançado",
+        "genero": ["Ação", "Aventura", "Mundo Aberto"],
+        "jogos": [
+            {
+                "titulo": "Red Dead Redemption 2",
+                "plataforma": ["PlayStation 4", "PlayStation 5", "PC", "Xbox Series S", "Xbox One"],
+                "publicadora": "Rockstar Games",
+                "dataLancamento": "2018-10-26",
+                "valor": 499,
+                "notageral": 9.9,
+                "criticas": [
+                    {
+                        "nota": 10.0,
+                        "usuario": "WildWestFan",
+                        "comentario": "A melhor experiência de faroeste nos videogames!"
+                    },
+                    {
+                        "nota": 9.7,
+                        "usuario": "CowboyGamer",
+                        "comentario": "Gráficos incríveis e história envolvente."
+                    }
+                ]
+            }
+        ],
+        "possui" : [
+            {"$oid" : "64a192b299a3637862522b23"},
+            {"$oid" : "64a192b299a3637862522b24"},
+            {"$oid" : "64a192b299a3637862522b25"},
+            {"$oid" : "64a192b299a3637862522b26"},
+            {"$oid" : "64a192b299a3637862522b27"},
+            {"$oid" : "64a192e694ef0a5ab29edad7"}
+        ]
+    },
+    {
+        "nome": "God of War",
+        "dataInicio": "2014-07-20",
+        "dataPrevista": "2018-04-20",
+        "etapa": "Lançado",
+        "genero": ["Ação", "Aventura"],
+        "jogos": [
+            {
+                "titulo": "God of War",
+                "plataforma": ["PlayStation 4", "PlayStation 5"],
+                "publicadora": "Sony Interactive Entertainment",
+                "dataLancamento": "2018-04-20",
+                "valor": 399,
+                "notageral": 9.8,
+                "criticas": [
+                    {
+                        "nota": 9.8,
+                        "usuario": "KratosFan",
+                        "comentario": "A reinvenção perfeita para a franquia!"
+                    },
+                    {
+                        "nota": 9.5,
+                        "usuario": "MythologyGeek",
+                        "comentario": "Combates épicos e uma história emocionante."
+                    }
+                ]
+            }
+        ],
+        "possui" : [
+            {"$oid" : "64a192b299a3637862522b23"},
+            {"$oid" : "64a192b299a3637862522b24"},
+            {"$oid" : "64a192b299a3637862522b25"},
+            {"$oid" : "64a192b299a3637862522b26"},
+            {"$oid" : "64a192b299a3637862522b27"},
+            {"$oid" : "64a192e694ef0a5ab29edad7"}
+        ]
+    },
+    {
+        "nome": "The Witcher 3: Wild Hunt",
+        "dataInicio": "2012-05-30",
+        "dataPrevista": "2015-05-19",
+        "etapa": "Lançado",
+        "genero": ["RPG", "Ação", "Mundo Aberto"],
+        "jogos": [
+            {
+                "titulo": "The Witcher 3: Wild Hunt",
+                "plataforma": ["PlayStation 4", "PlayStation 5", "Xbox One", "Xbox Series S", "PC", "Nintendo Switch"],
+                "publicadora": "CD Projekt",
+                "dataLancamento": "2015-05-19",
+                "valor": 199,
+                "notageral": 9.9,
+                "criticas": [
+                    {
+                        "nota": 10.0,
+                        "usuario": "WitcherFan",
+                        "comentario": "Um dos melhores RPGs de todos os tempos!"
+                    },
+                    {
+                        "nota": 9.8,
+                        "usuario": "FantasyGamer",
+                        "comentario": "Mundo vasto e cheio de histórias cativantes."
+                    }
+                ]
+            }
+        ],
+        "possui" : [
+            {"$oid" : "64a192b299a3637862522b23"},
+            {"$oid" : "64a192b299a3637862522b24"},
+            {"$oid" : "64a192b299a3637862522b25"},
+            {"$oid" : "64a192b299a3637862522b26"},
+            {"$oid" : "64a192b299a3637862522b27"},
+            {"$oid" : "64a192e694ef0a5ab29edad7"}
+        ]
+    },
+    {
+        "nome": "Resident Evil 4",
+        "dataInicio": "2002-10-25",
+        "dataPrevista": "2005-01-11",
+        "etapa": "Lançado",
+        "genero": ["Ação", "Aventura", "Survival Horror"],
+        "jogos": [
+          {
+            "titulo": "Resident Evil 4",
+            "plataforma": ["Nintendo Switch", "PlayStation 4", "Xbox One", "PC"],
+            "publicadora": "Capcom",
+            "dataLancamento": "2005-01-11",
+            "valor": 59.99,
+            "notageral": 9.6,
+            "criticas": [
+              {
+                "nota": 9.5,
+                "usuario": "HorrorGamer",
+                "comentario": "Uma obra-prima do gênero survival horror."
+              },
+              {
+                "nota": 9.7,
+                "usuario": "ActionFan",
+                "comentario": "Ação intensa e uma história cativante."
+              }
+            ]
+          }
+        ],
+        "possui" : [
+            {"$oid" : "64a192b299a3637862522b23"},
+            {"$oid" : "64a192b299a3637862522b24"},
+            {"$oid" : "64a192b299a3637862522b25"},
+            {"$oid" : "64a192b299a3637862522b26"},
+            {"$oid" : "64a192b299a3637862522b27"},
+            {"$oid" : "64a192e694ef0a5ab29edad7"}
+        ]
+    },
+    {
+        "nome": "Super Mario Odyssey",
+        "dataInicio": "2015-06-15",
+        "dataPrevista": "2017-10-27",
+        "etapa": "Lançado",
+        "genero": ["Ação", "Plataforma", "Aventura"],
+        "jogos": [
+            {
+                "titulo": "Super Mario Odyssey",
+                "plataforma": ["Nintendo Switch"],
+                "publicadora": "Nintendo",
+                "dataLancamento": "2017-10-27",
+                "valor": 299,
+                "notageral": 9.7,
+                "criticas": [
+                    {
+                        "nota": 9.5,
+                        "usuario": "Gamer123",
+                        "comentario": "Uma aventura incrível com o Mario!"
+                    },
+                    {
+                        "nota": 9.8,
+                        "usuario": "PlatformMaster",
+                        "comentario": "Os mundos são lindos e cheios de segredos."
+                    }
+                ]
+            }
+        ],
+        "possui" : [
+            {"$oid" : "64a192b299a3637862522b23"},
+            {"$oid" : "64a192b299a3637862522b24"},
+            {"$oid" : "64a192b299a3637862522b25"},
+            {"$oid" : "64a192b299a3637862522b26"},
+            {"$oid" : "64a192b299a3637862522b27"},
+            {"$oid" : "64a192e694ef0a5ab29edad7"}
+        ]
+    },
+    {
+        "nome": "The Legend of Zelda: Breath of the Wild",
+        "dataInicio": "2013-02-21",
+        "dataPrevista": "2017-03-03",
+        "etapa": "Lançado",
+        "genero": ["Ação", "Aventura", "Mundo Aberto"],
+        "jogos": [
+            {
+                "titulo": "The Legend of Zelda: Breath of the Wild",
+                "plataforma": ["Nintendo Switch", "Wii U"],
+                "publicadora": "Nintendo",
+                "dataLancamento": "2017-03-03",
+                "valor": 359,
+                "notageral": 9.9,
+                "criticas": [
+                    {
+                        "nota": 10.0,
+                        "usuario": "ZeldaFan",
+                        "comentario": "Um jogo incrível que redefine a série Zelda!"
+                    },
+                    {
+                        "nota": 9.8,
+                        "usuario": "AdventureGamer",
+                        "comentario": "Explorar Hyrule é uma experiência maravilhosa."
+                    }
+                ]
+            }
+        ],
+        "possui" : [
+            {"$oid" : "64a192b299a3637862522b23"},
+            {"$oid" : "64a192b299a3637862522b24"}
+        ]
+    },
+    {
+        "nome" : "Continuação de Breath of the Wild",
+        "dataInicio" : "2018-02-02",
+        "dataPrevista" : "2022-07-23",
+        "etapa" : "Lançado",
+        "genero" : [
+            "Ação",
+            "Aventura",
+            "Roleplay",
+            "Mundo Aberto"
+        ],
+        "jogos" : [
+            {
+                "titulo" : "The Legend of Zelda: Tears of the Kingdom",
+                "plataforma" : ["Nintendo Switch"],
+                "publicadora" : "Nintendo",
+                "dataLancamento" : "2023-05-12",
+                "valor" : 350,
+                "notageral" : 9.8,
+                "criticas" : [
+                    {
+                        "nota" : 10.0,
+                        "usuario" : "Lukz",
+                        "comentario" : "Muito bom"
+                    }
+                ]
+            }
+        ],
+        "possui" : [
+            {"$oid" : "64a192b299a3637862522b23"},
+            {"$oid" : "64a192b299a3637862522b24"},
+            {"$oid" : "64a192b299a3637862522b25"}
+        ]
+    },
+    {
+        "nome": "Animal Crossing: New Horizons",
+        "dataInicio": "2018-06-12",
+        "dataPrevista": "2020-03-20",
+        "etapa": "Lançado",
+        "genero": ["Simulação", "Vida", "Mundo Aberto"],
+        "jogos": [
+            {
+                "titulo": "Animal Crossing: New Horizons",
+                "plataforma": ["Nintendo Switch"],
+                "publicadora": "Nintendo",
+                "dataLancamento": "2020-03-20",
+                "valor": 249,
+                "notageral": 9.5,
+                "criticas": [
+                    {
+                        "nota": 9.4,
+                        "usuario": "IslandLife",
+                        "comentario": "Uma experiência relaxante e viciante."
+                    },
+                    {
+                        "nota": 9.6,
+                        "usuario": "NatureLover",
+                        "comentario": "Criar e decorar minha ilha é muito divertido."
+                    }
+                ]
+            }
+        ],
+        "possui" : [
+            {"$oid" : "64a192b299a3637862522b23"},
+            {"$oid" : "64a192b299a3637862522b24"},
+            {"$oid" : "64a192b299a3637862522b25"},
+            {"$oid" : "64a192b299a3637862522b26"},
+            {"$oid" : "64a192b299a3637862522b27"}
+        ]
+    },
+    {
+        "nome": "Mario Kart 8 Deluxe",
+        "dataInicio": "2014-05-29",
+        "dataPrevista": "2017-04-28",
+        "etapa": "Lançado",
+        "genero": ["Corrida", "Multiplayer"],
+        "jogos": [
+            {
+                "titulo": "Mario Kart 8 Deluxe",
+                "plataforma": ["Nintendo Switch"],
+                "publicadora": "Nintendo",
+                "dataLancamento": "2017-04-28",
+                "valor": 299,
+                "notageral": 9.6,
+                "criticas": [
+                    {
+                        "nota": 9.7,
+                        "usuario": "RacingFan",
+                        "comentario": "Uma experiência de corrida incrível, especialmente com amigos."
+                    },
+                    {
+                        "nota": 9.5,
+                        "usuario": "PowerUpMaster",
+                        "comentario": "Muitas pistas e personagens para desbloquear."
+                    }
+                ]
+            }
+        ],
+        "possui" : [
+            {"$oid" : "64a192b299a3637862522b23"},
+            {"$oid" : "64a192b299a3637862522b24"},
+            {"$oid" : "64a192b299a3637862522b25"}
+        ]
+    },
+    {
+        "nome": "Splatoon 2",
+        "dataInicio": "2015-04-21",
+        "dataPrevista": "2017-07-21",
+        "etapa": "Lançado",
+        "genero": ["Tiro", "Multijogador"],
+        "jogos": [
+            {
+                "titulo": "Splatoon 2",
+                "plataforma": ["Nintendo Switch"],
+                "publicadora": "Nintendo",
+                "dataLancamento": "2017-07-21",
+                "valor": 249,
+                "notageral": 9.3,
+                "criticas": [
+                    {
+                        "nota": 9.0,
+                        "usuario": "InkMaster",
+                        "comentario": "Um jogo de tiro criativo e divertido."
+                    },
+                    {
+                        "nota": 9.5,
+                        "usuario": "SquidFan",
+                        "comentario": "As batalhas online são viciantes."
+                    }
+                ]
+            }
+        ],
+        "possui" : [
+            {"$oid" : "64a192e694ef0a5ab29edad7"}
+        ]
+    }
+
+]

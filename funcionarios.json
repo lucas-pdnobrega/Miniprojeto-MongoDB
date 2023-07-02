@@ -1,0 +1,94 @@
+[
+    {
+     "cpf" : "13285702400",
+     "nome" : "Lucas",
+     "idade" : 18,
+     "telefone" : [
+        "83998592861"
+     ],
+     "endereco" : {
+        "rua" : "Rua Dalva Filgueiras de Athayde",
+        "bairro" : "Manaira",
+        "cep" : "58038512",
+        "numero" : 30,
+        "complemento" : "Atrás do bradesco"
+     },
+     "cargo" : "Moleque",
+     "salario" : 2200.0
+    },
+    {
+        "cpf": "56789000000",
+        "nome": "Rafael",
+        "idade": 32,
+        "telefone": ["83995678901"],
+        "endereco": {
+          "rua": "Rua dos Escritores",
+          "bairro": "História",
+          "cep": "56789000",
+          "numero": 20,
+          "complemento": "Próximo à biblioteca central"
+        },
+        "cargo": "Roteirista",
+        "salario": 4200.0
+    },
+    {
+        "cpf": "45678900000",
+        "nome": "Ana",
+        "idade": 27,
+        "telefone": ["83994567890"],
+        "endereco": {
+          "rua": "Avenida dos Artistas",
+          "bairro": "Criativo",
+          "cep": "45678000",
+          "numero": 40,
+          "complemento": "Próximo ao estúdio de animação"
+        },
+        "cargo": "Artista 2D",
+        "salario": 3800.0
+    },
+    {
+        "cpf": "34567890000",
+        "nome": "Carlos",
+        "idade": 35,
+        "telefone": ["83993456789"],
+        "endereco": {
+          "rua": "Rua dos Testadores",
+          "bairro": "QA City",
+          "cep": "34567000",
+          "numero": 35,
+          "complemento": "Ao lado do laboratório de testes"
+        },
+        "cargo": "QA Engineer",
+        "salario": 4000.0
+    },
+    {
+        "cpf": "23456789000",
+        "nome": "Maria",
+        "idade": 30,
+        "telefone": ["83992345678"],
+        "endereco": {
+          "rua": "Avenida dos Designers",
+          "bairro": "ArteVille",
+          "cep": "23456000",
+          "numero": 25,
+          "complemento": "Próximo ao museu de arte"
+        },
+        "cargo": "Designer",
+        "salario": 4500.0
+    },
+    {
+        "cpf": "11111111111",
+        "nome": "Sandra",
+        "idade": 24,
+        "telefone": ["83990123456"],
+        "endereco": {
+          "rua": "Avenida dos Ilustradores",
+          "bairro": "ArteVille",
+          "cep": "11111000",
+          "numero": 12,
+          "complemento": "Próximo à galeria de arte"
+        },
+        "cargo": "Ilustradora",
+        "salario": 3800
+    }
+]
