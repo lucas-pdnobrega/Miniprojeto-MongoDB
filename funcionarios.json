@@ -14,7 +14,8 @@
         "complemento" : "Atrás do bradesco"
      },
      "cargo" : "Moleque",
-     "salario" : 2200.0
+     "salario" : 2200.0,
+     "projetos" : []
     },
     {
         "cpf": "56789000000",
@@ -29,7 +30,8 @@
           "complemento": "Próximo à biblioteca central"
         },
         "cargo": "Roteirista",
-        "salario": 4200.0
+        "salario": 4200.0,
+        "projetos" : []
     },
     {
         "cpf": "45678900000",
@@ -44,7 +46,8 @@
           "complemento": "Próximo ao estúdio de animação"
         },
         "cargo": "Artista 2D",
-        "salario": 3800.0
+        "salario": 3800.0,
+        "projetos" : []
     },
     {
         "cpf": "34567890000",
@@ -59,7 +62,8 @@
           "complemento": "Ao lado do laboratório de testes"
         },
         "cargo": "QA Engineer",
-        "salario": 4000.0
+        "salario": 4000.0,
+        "projetos" : []
     },
     {
         "cpf": "23456789000",
@@ -74,7 +78,8 @@
           "complemento": "Próximo ao museu de arte"
         },
         "cargo": "Designer",
-        "salario": 4500.0
+        "salario": 4500.0,
+        "projetos" : []
     },
     {
         "cpf": "11111111111",
@@ -89,6 +94,7 @@
           "complemento": "Próximo à galeria de arte"
         },
         "cargo": "Ilustradora",
-        "salario": 3800
+        "salario": 3800,
+        "projetos" : []
     }
 ]

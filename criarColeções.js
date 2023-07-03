@@ -30,8 +30,7 @@ db.createCollection("projeto", {
           description: "O campo 'possui' é obrigatório e deve ser do tipo array.",
           items: {
             bsonType: "objectId",
-            description: "Cada elemento do array 'possui' deve ser do tipo objectId.",
-            minLength: 1
+            description: "Cada elemento do array 'possui' deve ser do tipo objectId."
           }
         }
       }
