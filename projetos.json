@@ -98,7 +98,7 @@
         "jogos": [
           {
             "titulo": "Resident Evil 4",
-            "plataforma": ["Nintendo Switch", "PlayStation 4", "Xbox One", "PC"],
+            "plataforma": ["Gamecube", "Playstation 2"],
             "publicadora": "Capcom",
             "dataLancamento": "2005-01-11",
             "valor": 59.99,
@@ -113,6 +113,26 @@
                 "nota": 9.7,
                 "usuario": "ActionFan",
                 "comentario": "Ação intensa e uma história cativante."
+              }
+            ]
+          },
+          {
+            "titulo": "Resident Evil 4 HD Ultimate Edition",
+            "plataforma": ["Nintendo Switch", "PlayStation 4", "Xbox One", "PC"],
+            "publicadora": "Capcom",
+            "dataLancamento": "2014-02-28",
+            "valor": 159.99,
+            "notageral": 9.3,
+            "criticas": [
+              {
+                "nota": 9.5,
+                "usuario": "HorrorGamer",
+                "comentario": "Uma obra-prima do gênero survival horror revivida."
+              },
+              {
+                "nota": 7.8,
+                "usuario": "ActionFan",
+                "comentario": "Port razoável."
               }
             ]
           }
@@ -180,33 +200,17 @@
         "funcionarios" : []
     },
     {
-        "nome" : "Continuação de Breath of the Wild",
+        "nome" : "The Legend of Zelda: Tears of the Kingdom",
         "dataInicio" : "2018-02-02",
-        "dataPrevista" : "2022-07-23",
-        "etapa" : "Lançado",
+        "dataPrevista" : "2023-07-23",
+        "etapa" : "Desenvolvimento",
         "genero" : [
             "Ação",
             "Aventura",
             "Roleplay",
             "Mundo Aberto"
         ],
-        "jogos" : [
-            {
-                "titulo" : "The Legend of Zelda: Tears of the Kingdom",
-                "plataforma" : ["Nintendo Switch"],
-                "publicadora" : "Nintendo",
-                "dataLancamento" : "2023-05-12",
-                "valor" : 350,
-                "notageral" : 9.8,
-                "criticas" : [
-                    {
-                        "nota" : 10.0,
-                        "usuario" : "Lukz",
-                        "comentario" : "Muito bom"
-                    }
-                ]
-            }
-        ],
+        "jogos" : [],
         "funcionarios" : []
     },
     {

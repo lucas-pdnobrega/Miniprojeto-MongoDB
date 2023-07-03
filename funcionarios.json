@@ -3,7 +3,7 @@
         "cpf": "56789000000",
         "nome": "Rafael",
         "idade": 32,
-        "telefone": ["83995678901"],
+        "telefone": ["11995678901"],
         "endereco": {
           "rua": "Rua dos Escritores",
           "bairro": "História",
@@ -19,7 +19,7 @@
         "cpf": "45678900000",
         "nome": "Ana",
         "idade": 27,
-        "telefone": ["83994567890"],
+        "telefone": ["81994567890"],
         "endereco": {
           "rua": "Avenida dos Artistas",
           "bairro": "Criativo",
@@ -35,7 +35,7 @@
         "cpf": "34567890000",
         "nome": "Carlos",
         "idade": 35,
-        "telefone": ["83993456789"],
+        "telefone": ["84993456789"],
         "endereco": {
           "rua": "Rua dos Testadores",
           "bairro": "QA City",
@@ -51,7 +51,7 @@
         "cpf": "23456789000",
         "nome": "Maria",
         "idade": 30,
-        "telefone": ["83992345678"],
+        "telefone": ["35992345678"],
         "endereco": {
           "rua": "Avenida dos Designers",
           "bairro": "ArteVille",
@@ -99,7 +99,7 @@
       "cpf": "87654321000",
       "nome": "Juliana",
       "idade": 31,
-      "telefone": ["83992345000"],
+      "telefone": ["83992345000", "77992654003", "97992355505"],
       "endereco": {
         "rua": "Avenida das Gerentes",
         "bairro": "Liderança",
@@ -115,7 +115,7 @@
       "cpf": "76543210900",
       "nome": "Pedro",
       "idade": 26,
-      "telefone": ["83990123000"],
+      "telefone": ["83990123000","83990312002"],
       "endereco": {
         "rua": "Rua dos Analistas",
         "bairro": "Dados",
@@ -147,7 +147,7 @@
     "cpf": "54321098700",
     "nome": "Gabriela",
     "idade": 33,
-    "telefone": ["83993456111"],
+    "telefone": [],
     "endereco": {
         "rua": "Rua dos Arquitetos",
         "bairro": "Arquitetura",
