@@ -1,23 +1,5 @@
 [
     {
-     "cpf" : "56789000000",
-     "nome" : "Lucas",
-     "idade" : 18,
-     "telefone" : [
-        "83998592860"
-     ],
-     "endereco" : {
-        "rua" : "Rua Dalva Filgueiras de Athayde",
-        "bairro" : "Manaira",
-        "cep" : "58038512",
-        "numero" : 30,
-        "complemento" : "Atrás do bradesco"
-     },
-     "cargo" : "Moleque",
-     "salario" : 2200.0,
-     "projetos" : []
-    },
-    {
         "cpf": "56789000000",
         "nome": "Rafael",
         "idade": 32,
@@ -96,5 +78,85 @@
         "cargo": "Ilustradora",
         "salario": 3800,
         "projetos" : []
-    }
+    },
+    {
+      "cpf": "98765432100",
+      "nome": "Lucas",
+      "idade": 29,
+      "telefone": ["83991234567"],
+      "endereco": {
+        "rua": "Rua dos Programadores",
+        "bairro": "Tech Town",
+        "cep": "98765000",
+        "numero": 15,
+        "complemento": "Próximo ao centro de tecnologia"
+      },
+      "cargo": "Desenvolvedor",
+      "salario": 5000.0,
+      "projetos" : []
+  },
+  {
+      "cpf": "87654321000",
+      "nome": "Juliana",
+      "idade": 31,
+      "telefone": ["83992345000"],
+      "endereco": {
+        "rua": "Avenida das Gerentes",
+        "bairro": "Liderança",
+        "cep": "87654000",
+        "numero": 30,
+        "complemento": "Próximo à sede administrativa"
+      },
+      "cargo": "Gerente de Projetos",
+      "salario": 6000.0,
+      "projetos" : []
+  },
+  {
+      "cpf": "76543210900",
+      "nome": "Pedro",
+      "idade": 26,
+      "telefone": ["83990123000"],
+      "endereco": {
+        "rua": "Rua dos Analistas",
+        "bairro": "Dados",
+        "cep": "76543000",
+        "numero": 10,
+        "complemento": "Próximo ao departamento de análise"
+      },
+      "cargo": "Analista de Dados",
+      "salario": 4500.0,
+      "projetos" : []
+  },
+  {
+      "cpf": "65432109800",
+      "nome": "Camila",
+      "idade": 28,
+      "telefone": ["83991234500"],
+      "endereco": {
+        "rua": "Avenida dos Testadores",
+        "bairro": "QA City",
+        "cep": "65432000",
+        "numero": 5,
+        "complemento": "Ao lado do laboratório de testes"
+      },
+      "cargo": "QA Engineer",
+      "salario": 4200.0,
+      "projetos" : []
+  },
+  {
+    "cpf": "54321098700",
+    "nome": "Gabriela",
+    "idade": 33,
+    "telefone": ["83993456111"],
+    "endereco": {
+        "rua": "Rua dos Arquitetos",
+        "bairro": "Arquitetura",
+        "cep": "54321000",
+        "numero": 8,
+        "complemento": "Próximo ao escritório de design"
+    },
+    "cargo": "Arquiteta",
+    "salario": 4800.0,
+    "projetos" : []
+  }
 ]
