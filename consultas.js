@@ -140,7 +140,7 @@ db.projeto.aggregate([
 
 //- 1 consulta com pelo menos aggregate e lookup;
 //Quantidade de projetos os quais cada funcionário participa
-db.projeto.aggregate([
+db.funcionario.aggregate([
     {
         '$lookup': {
             'from': 'projeto', 
