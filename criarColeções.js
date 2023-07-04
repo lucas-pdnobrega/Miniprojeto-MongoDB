@@ -2,7 +2,7 @@ db.createCollection("projeto", {
   validator: {
     $jsonSchema: {
       bsonType: "object",
-      required: ["nome", "dataInicio", "etapa", "genero", "possui"],
+      required: ["nome", "dataInicio", "etapa", "genero", "funcionarios"],
       properties: {
         nome: {
           bsonType: "string",
@@ -25,9 +25,9 @@ db.createCollection("projeto", {
             minLength: 1
           }
         },
-        possui: {
+        funcionarios: {
           bsonType: "array",
-          description: "O campo 'possui' é obrigatório e deve ser do tipo array.",
+          description: "O campo 'funcionarios' é obrigatório e deve ser do tipo array.",
           items: {
             bsonType: "objectId",
             description: "Cada elemento do array 'possui' deve ser do tipo objectId."
