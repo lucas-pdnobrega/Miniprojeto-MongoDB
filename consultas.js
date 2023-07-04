@@ -75,16 +75,16 @@ db.projeto.find(
 //- 1 consulta com pelo menos acesso a elemento de array;
 
 /*
-Exibir o nome e o primeiro telefone dos usuários cujo DDD seja da Paraíba (83)
+Exibir o nome e o(s) telefone(s) dos usuários cujo DDD seja da Paraíba (83)
 */
 
 db.funcionario.find(
     {
-        "telefones.0": /^83[0-9]{9}/
+        "telefone.0": /^83+/
     },
     {
         "nome": 1,
-        "telefones.0": 1,
+        "telefone": 1,
         "_id": 0
     }
 );
