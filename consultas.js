@@ -1,13 +1,13 @@
 //- 2 consultas com pelo menos filtros diversos (IN, GT, etc), sem projeção;
-//Todos jogos lançados após 2017/05/31 
+//Todos jogos de Aventura ou Ação lançados após 2017/05/31 
 db.projeto.find(
     {dataPrevista : {$gte : "2017-05-31"},
-     etapa : "Lançado"}, 
-    {_id: 0}
+     genero : {$in : ["Aventura", "Ação"]},
+     etapa : "Lançado"}
     )
-//Funcionários com 20 ou mais anos, que são ilustradores, designers, ou artistas 2D
+//Funcionários entre 20 e 30 (inclusive) anos, que são ilustradores, designers, ou artistas 2D
 db.funcionario.find(
-    {idade: {$gte : 20},
+    {idade: {$gte : 20} && {$lte : 30},
     cargo: {$in : ["Ilustradora", "Designer", "Artista 2D"]}},
     {_id: 0}
     )
