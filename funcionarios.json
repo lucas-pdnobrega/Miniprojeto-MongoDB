@@ -1,162 +1,276 @@
-[
-    {
-        "cpf": "56789000000",
-        "nome": "Rafael",
-        "idade": 32,
-        "telefone": ["11995678901"],
-        "endereco": {
-          "rua": "Rua dos Escritores",
-          "bairro": "História",
-          "cep": "56789000",
-          "numero": 20,
-          "complemento": "Próximo à biblioteca central"
-        },
-        "cargo": "Roteirista",
-        "salario": 4200.0,
-        "projetos" : []
-    },
-    {
-        "cpf": "45678900000",
-        "nome": "Ana",
-        "idade": 27,
-        "telefone": ["81994567890"],
-        "endereco": {
-          "rua": "Avenida dos Artistas",
-          "bairro": "Criativo",
-          "cep": "45678000",
-          "numero": 40,
-          "complemento": "Próximo ao estúdio de animação"
-        },
-        "cargo": "Artista 2D",
-        "salario": 3800.0,
-        "projetos" : []
-    },
-    {
-        "cpf": "34567890000",
-        "nome": "Carlos",
-        "idade": 35,
-        "telefone": ["84993456789"],
-        "endereco": {
-          "rua": "Rua dos Testadores",
-          "bairro": "QA City",
-          "cep": "34567000",
-          "numero": 35,
-          "complemento": "Ao lado do laboratório de testes"
-        },
-        "cargo": "QA Engineer",
-        "salario": 4000.0,
-        "projetos" : []
-    },
-    {
-        "cpf": "23456789000",
-        "nome": "Maria",
-        "idade": 30,
-        "telefone": ["35992345678"],
-        "endereco": {
-          "rua": "Avenida dos Designers",
-          "bairro": "ArteVille",
-          "cep": "23456000",
-          "numero": 25,
-          "complemento": "Próximo ao museu de arte"
-        },
-        "cargo": "Designer",
-        "salario": 4500.0,
-        "projetos" : []
-    },
-    {
-        "cpf": "11111111111",
-        "nome": "Sandra",
-        "idade": 24,
-        "telefone": ["83990123456"],
-        "endereco": {
-          "rua": "Avenida dos Ilustradores",
-          "bairro": "ArteVille",
-          "cep": "11111000",
-          "numero": 12,
-          "complemento": "Próximo à galeria de arte"
-        },
-        "cargo": "Ilustradora",
-        "salario": 3800,
-        "projetos" : []
-    },
-    {
-      "cpf": "98765432100",
-      "nome": "Lucas",
-      "idade": 29,
-      "telefone": ["83991234567"],
-      "endereco": {
-        "rua": "Rua dos Programadores",
-        "bairro": "Tech Town",
-        "cep": "98765000",
-        "numero": 15,
-        "complemento": "Próximo ao centro de tecnologia"
-      },
-      "cargo": "Desenvolvedor",
-      "salario": 5000.0,
-      "projetos" : []
+[{
+  "_id": {
+    "$oid": "64a362b10f105314c745ca8a"
   },
-  {
-      "cpf": "87654321000",
-      "nome": "Juliana",
-      "idade": 31,
-      "telefone": ["83992345000", "77992654003", "97992355505"],
-      "endereco": {
-        "rua": "Avenida das Gerentes",
-        "bairro": "Liderança",
-        "cep": "87654000",
-        "numero": 30,
-        "complemento": "Próximo à sede administrativa"
-      },
-      "cargo": "Gerente de Projetos",
-      "salario": 6000.0,
-      "projetos" : []
+  "cpf": "56789000000",
+  "nome": "Rafael",
+  "idade": 32,
+  "telefone": [
+    "11995678901"
+  ],
+  "endereco": {
+    "rua": "Rua dos Escritores",
+    "bairro": "História",
+    "cep": "56789000",
+    "numero": 20,
+    "complemento": "Próximo à biblioteca central"
   },
-  {
-      "cpf": "76543210900",
-      "nome": "Pedro",
-      "idade": 26,
-      "telefone": ["83990123000","83990312002"],
-      "endereco": {
-        "rua": "Rua dos Analistas",
-        "bairro": "Dados",
-        "cep": "76543000",
-        "numero": 10,
-        "complemento": "Próximo ao departamento de análise"
-      },
-      "cargo": "Analista de Dados",
-      "salario": 4500.0,
-      "projetos" : []
-  },
-  {
-      "cpf": "65432109800",
-      "nome": "Camila",
-      "idade": 28,
-      "telefone": ["83991234500"],
-      "endereco": {
-        "rua": "Avenida dos Testadores",
-        "bairro": "QA City",
-        "cep": "65432000",
-        "numero": 5,
-        "complemento": "Ao lado do laboratório de testes"
-      },
-      "cargo": "QA Engineer",
-      "salario": 4200.0,
-      "projetos" : []
-  },
-  {
-    "cpf": "54321098700",
-    "nome": "Gabriela",
-    "idade": 33,
-    "telefone": [],
-    "endereco": {
-        "rua": "Rua dos Arquitetos",
-        "bairro": "Arquitetura",
-        "cep": "54321000",
-        "numero": 8,
-        "complemento": "Próximo ao escritório de design"
+  "cargo": "Roteirista",
+  "salario": 4200,
+  "projetos": [
+    {
+      "$oid": "64a362aa0f105314c745ca7f"
     },
-    "cargo": "Arquiteta",
-    "salario": 4800.0,
-    "projetos" : []
-  }
-]
+    {
+      "$oid": "64a362aa0f105314c745ca80"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca81"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca82"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca84"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64a362b10f105314c745ca8b"
+  },
+  "cpf": "45678900000",
+  "nome": "Ana",
+  "idade": 27,
+  "telefone": [
+    "81994567890"
+  ],
+  "endereco": {
+    "rua": "Avenida dos Artistas",
+    "bairro": "Criativo",
+    "cep": "45678000",
+    "numero": 40,
+    "complemento": "Próximo ao estúdio de animação"
+  },
+  "cargo": "Artista 2D",
+  "salario": 3800,
+  "projetos": [
+    {
+      "$oid": "64a362aa0f105314c745ca83"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca84"
+    },
+    {
+      "$oid": "64a362b10f105314c745ca8b"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca88"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64a362b10f105314c745ca8c"
+  },
+  "cpf": "34567890000",
+  "nome": "Carlos",
+  "idade": 35,
+  "telefone": [
+    "84993456789"
+  ],
+  "endereco": {
+    "rua": "Rua dos Testadores",
+    "bairro": "QA City",
+    "cep": "34567000",
+    "numero": 35,
+    "complemento": "Ao lado do laboratório de testes"
+  },
+  "cargo": "QA Engineer",
+  "salario": 4000,
+  "projetos": [
+    {
+      "$oid": "64a362aa0f105314c745ca7f"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca80"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca81"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca83"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca84"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca87"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca88"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64a362b10f105314c745ca8d"
+  },
+  "cpf": "23456789000",
+  "nome": "Maria",
+  "idade": 30,
+  "telefone": [
+    "35992345678"
+  ],
+  "endereco": {
+    "rua": "Avenida dos Designers",
+    "bairro": "ArteVille",
+    "cep": "23456000",
+    "numero": 25,
+    "complemento": "Próximo ao museu de arte"
+  },
+  "cargo": "Designer",
+  "salario": 4500,
+  "projetos": [
+    {
+      "$oid": "64a362aa0f105314c745ca7f"
+    },
+    {
+      "$oid": "64a362b10f105314c745ca8d"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca84"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca86"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca87"
+    },
+    {
+      "$oid": "64a362aa0f105314c745ca88"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64a362b10f105314c745ca8e"
+  },
+  "cpf": "11111111111",
+  "nome": "Sandra",
+  "idade": 24,
+  "telefone": [
+    "83990123456"
+  ],
+  "endereco": {
+    "rua": "Avenida dos Ilustradores",
+    "bairro": "ArteVille",
+    "cep": "11111000",
+    "numero": 12,
+    "complemento": "Próximo à galeria de arte"
+  },
+  "cargo": "Ilustradora",
+  "salario": 3800,
+  "projetos": []
+},{
+  "_id": {
+    "$oid": "64a362b10f105314c745ca8f"
+  },
+  "cpf": "98765432100",
+  "nome": "Lucas",
+  "idade": 29,
+  "telefone": [
+    "83991234567"
+  ],
+  "endereco": {
+    "rua": "Rua dos Programadores",
+    "bairro": "Tech Town",
+    "cep": "98765000",
+    "numero": 15,
+    "complemento": "Próximo ao centro de tecnologia"
+  },
+  "cargo": "Desenvolvedor",
+  "salario": 5000,
+  "projetos": [
+    {
+      "$oid": "64a362aa0f105314c745ca84"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "64a362b10f105314c745ca90"
+  },
+  "cpf": "87654321000",
+  "nome": "Juliana",
+  "idade": 31,
+  "telefone": [
+    "83992345000",
+    "77992654003",
+    "97992355505"
+  ],
+  "endereco": {
+    "rua": "Avenida das Gerentes",
+    "bairro": "Liderança",
+    "cep": "87654000",
+    "numero": 30,
+    "complemento": "Próximo à sede administrativa"
+  },
+  "cargo": "Gerente de Projetos",
+  "salario": 6000,
+  "projetos": []
+},{
+  "_id": {
+    "$oid": "64a362b10f105314c745ca91"
+  },
+  "cpf": "76543210900",
+  "nome": "Pedro",
+  "idade": 26,
+  "telefone": [
+    "83990123000",
+    "83990312002"
+  ],
+  "endereco": {
+    "rua": "Rua dos Analistas",
+    "bairro": "Dados",
+    "cep": "76543000",
+    "numero": 10,
+    "complemento": "Próximo ao departamento de análise"
+  },
+  "cargo": "Analista de Dados",
+  "salario": 4500,
+  "projetos": []
+},{
+  "_id": {
+    "$oid": "64a362b10f105314c745ca92"
+  },
+  "cpf": "65432109800",
+  "nome": "Camila",
+  "idade": 28,
+  "telefone": [
+    "83991234500"
+  ],
+  "endereco": {
+    "rua": "Avenida dos Testadores",
+    "bairro": "QA City",
+    "cep": "65432000",
+    "numero": 5,
+    "complemento": "Ao lado do laboratório de testes"
+  },
+  "cargo": "QA Engineer",
+  "salario": 4200,
+  "projetos": []
+},{
+  "_id": {
+    "$oid": "64a362b10f105314c745ca93"
+  },
+  "cpf": "54321098700",
+  "nome": "Gabriela",
+  "idade": 33,
+  "telefone": [],
+  "endereco": {
+    "rua": "Rua dos Arquitetos",
+    "bairro": "Arquitetura",
+    "cep": "54321000",
+    "numero": 8,
+    "complemento": "Próximo ao escritório de design"
+  },
+  "cargo": "Arquiteta",
+  "salario": 4800,
+  "projetos": []
+}]
