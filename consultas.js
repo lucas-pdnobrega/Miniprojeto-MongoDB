@@ -9,8 +9,7 @@ db.projeto.find(
     //Funcionários entre 20 e 30 (inclusive) anos, que são ilustradores, designers, ou artistas 2D
 db.funcionario.find(
     {idade: {$gte : 20} && {$lte : 30},
-    cargo: {$in : ["Ilustradora", "Designer", "Artista 2D"]}},
-    {_id: 0}
+    cargo: {$in : ["Ilustradora", "Designer", "Artista 2D"]}}
     )
 
 
@@ -152,7 +151,7 @@ db.projeto.aggregate([
     }, {
         '$unwind': {
             'path': '$result', 
-            'preserveNullAndEmptyArrays': True
+            'preserveNullAndEmptyArrays': true
         }
     }, {
         '$group': {
@@ -168,10 +167,28 @@ db.projeto.aggregate([
 ])
 
 //- 1 outra consulta (robusta) a seu critério, dentro do contexto da aplicação.
-
-
-
-
-
-
-
+db.projeto.aggregate([
+  {
+      '$lookup': {
+          'from': 'projeto', 
+          'localField': 'projetos', 
+          'foreignField': '_id', 
+          'as': 'result'
+      }
+  }, {
+      '$unwind': {
+          'path': '$result', 
+          'preserveNullAndEmptyArrays': false
+      }
+  }, {
+      '$group': {
+          '_id': '$_id', 
+          'nome': {
+              '$first': '$nome'
+          }, 
+          'quantidade_projetos': {
+              '$sum': 1
+          }
+      }
+  }
+])
