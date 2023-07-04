@@ -13,6 +13,7 @@ db.funcionario.find(
     )
 
 //- 1 consulta com pelo menos aggregate e lookup;
+//Quantidade de projetos os quais cada funcionário participa
 db.projeto.aggregate([
     {
         '$lookup': {
