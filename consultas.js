@@ -13,7 +13,31 @@ db.funcionario.find(
     )
 
 //- 1 consulta com pelo menos aggregate e lookup;
-db.projeto.aggregate({})
+db.projeto.aggregate([
+    {
+        '$lookup': {
+            'from': 'projeto', 
+            'localField': 'projetos', 
+            'foreignField': '_id', 
+            'as': 'result'
+        }
+    }, {
+        '$unwind': {
+            'path': '$result', 
+            'preserveNullAndEmptyArrays': True
+        }
+    }, {
+        '$group': {
+            '_id': '$_id', 
+            'nome': {
+                '$first': '$nome'
+            }, 
+            'quantidade_projetos': {
+                '$sum': 1
+            }
+        }
+    }
+])
 
 //- 1 consulta com pelo menos sort e limit e filtros e projeções;
 
