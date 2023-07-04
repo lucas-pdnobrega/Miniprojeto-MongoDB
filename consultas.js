@@ -56,7 +56,7 @@ Exibir o nome e o primeiro telefone dos usuários cujo DDD seja da Paraíba (83)
 
 db.funcionario.find(
     {
-        "telefones.0": /^83+/
+        "telefones.0": /^83[0-9]{9}/
     },
     {
         "nome": 1,
