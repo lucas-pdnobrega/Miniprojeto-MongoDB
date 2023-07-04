@@ -89,3 +89,30 @@ db.funcionario.find(
         "_id": 0
     }
 );
+
+//- 1 consulta com pelo menos aggregate e group by;
+
+/*
+Exibir a quantidade de jogos lançados em cada plataforma e o nome da plataforma
+*/
+
+db.projeto.aggregate([
+    {
+      $unwind: {
+          path: "$jogos",
+        }
+    },
+    {
+      $unwind: {
+          path: "$jogos.plataforma",
+        }
+    },
+    {
+      $group: {
+          _id: "$jogos.plataforma",
+          quantidade: {
+            $sum: 1
+          }
+        }
+    }
+]);
