@@ -152,6 +152,7 @@ db.funcionario.aggregate([
 ])
 
 //- 1 outra consulta (robusta) a seu critério, dentro do contexto da aplicação.
+//Exibir a média das notas gerais de cada jogo que tem nota geral acima de 9, agrupados por gênero
 db.projeto.aggregate([
   // Etapa 1: Desconstruir o campo "jogos" para obter um documento para cada jogo
   {
