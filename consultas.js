@@ -46,7 +46,7 @@ db.funcionario.find(
 );
 
 //- 1 consulta com pelo menos acesso a estrutura/objeto embutido; 
-// Encontre dentro de projeto os jogos lançados no Nintendo Switch
+// Encontre em projetos com jogos lançados no Nintendo Switch e liste os jogos
 db.projeto.find({
   "jogos.plataforma": "Nintendo Switch"
 }, {
