@@ -31,7 +31,7 @@ db.projeto.find(
 
 //- 1 consulta com pelo menos acesso a elemento de array;
 /*
-Exibir o nome e o(s) telefone(s) dos usuários cujo DDD seja da Paraíba (83)
+Exibir o nome e o(s) telefone(s) dos usuários cujo DDD do primeiro telefone seja da Paraíba (83)
 */
 
 db.funcionario.find(
@@ -60,21 +60,6 @@ db.projeto.find({
 Exibir o nome e a data prevista de 2 projetos cuja data prevista seja maior do que 2020-01-01 e que
 um dos seus gêneros seja 'Mundo aberto'. Posteriormente, ordenar pela data prevista 
 */
-
-// exemplo com ISODate
-db.projeto.find(
-    {
-        "dataPrevista": {$gte: ISODate("2020-01-01")},
-        "genero": {$in: ["Mundo Aberto"]}
-    },
-    {
-        "nome": 1,
-        "dataPrevista": 1,
-        "_id": 0
-    }
-).sort({"dataPrevista": 1}).limit(2);
-
-// exemplo sem ISODate
 db.projeto.find(
     {
         "dataPrevista": {$gte: "2020-01-01"},
@@ -151,7 +136,7 @@ db.funcionario.aggregate([
     }, {
         '$unwind': {
             'path': '$result', 
-            'preserveNullAndEmptyArrays': true
+            'preserveNullAndEmptyArrays': false
         }
     }, {
         '$group': {
@@ -168,27 +153,33 @@ db.funcionario.aggregate([
 
 //- 1 outra consulta (robusta) a seu critério, dentro do contexto da aplicação.
 db.projeto.aggregate([
+  // Etapa 1: Desconstruir o campo "jogos" para obter um documento para cada jogo
   {
-      '$lookup': {
-          'from': 'projeto', 
-          'localField': 'projetos', 
-          'foreignField': '_id', 
-          'as': 'result'
-      }
-  }, {
-      '$unwind': {
-          'path': '$result', 
-          'preserveNullAndEmptyArrays': false
-      }
-  }, {
-      '$group': {
-          '_id': '$_id', 
-          'nome': {
-              '$first': '$nome'
-          }, 
-          'quantidade_projetos': {
-              '$sum': 1
-          }
-      }
+    $unwind: "$jogos"
+  },
+  // Etapa 2: Filtrar jogos com nota geral maior que 9.0
+  {
+    $match: {
+      "jogos.notageral": { $gt: 9.0 }
+    }
+  },
+  // Etapa 3: Desconstruir o campo "genero" para obter um documento para cada gênero
+  {
+    $unwind: "$genero"
+  },
+  // Etapa 4: Agrupar por gênero e calcular a média da nota geral
+  {
+    $group: {
+      _id: "$genero",
+      mediaNotaGeral: { $avg: "$jogos.notageral" }
+    }
+  },
+  // Etapa 5: Ordenar por média da nota geral em ordem decrescente
+  {
+    $sort: { mediaNotaGeral: -1 }
+  },
+  // Etapa 6: Limitar o resultado aos 10 primeiros gêneros
+  {
+    $limit: 10
   }
 ])
